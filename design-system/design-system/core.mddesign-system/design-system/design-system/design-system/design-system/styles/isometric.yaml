@@ -1,0 +1,26 @@
+id: isometric
+direction: "Explain relationships through structured spatial illustrations."
+
+layout:
+  - Flat, conventional interface navigation
+  - Spatial diagrams for systems and workflows
+
+typography:
+  - Readable sans serif
+  - Clear diagram labels
+
+palette:
+  - Restrained categorical colors
+  - Neutral surfaces behind diagrams
+
+components:
+  - Labeled nodes and connectors
+  - Consistent illustration perspective
+
+avoid:
+  - Perspective-distorted body text
+  - Requiring spatial interpretation for basic tasks
+  - Unlabeled decorative systems diagrams
+
+supporting_use:
+  - Illustrations
