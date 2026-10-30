@@ -1,0 +1,43 @@
+version: 1
+note: "Starter semantic tokens; map these to your real design system."
+
+color:
+  background: "var(--surface-default)"
+  surface: "var(--surface-raised)"
+  text_primary: "var(--text-primary)"
+  text_secondary: "var(--text-secondary)"
+  action_primary: "var(--action-primary)"
+  action_primary_hover: "var(--action-primary-hover)"
+  focus_ring: "var(--focus-ring)"
+  success: "var(--status-success)"
+  warning: "var(--status-warning)"
+  danger: "var(--status-danger)"
+
+spacing:
+  xs: "4px"
+  sm: "8px"
+  md: "16px"
+  lg: "24px"
+  xl: "40px"
+  xxl: "64px"
+
+radius:
+  sm: "4px"
+  md: "8px"
+  lg: "16px"
+  pill: "999px"
+
+typography:
+  font_family_ui: "var(--font-ui)"
+  font_family_display: "var(--font-display)"
+  scale:
+    display: "clamp(2rem, 4vw, 3.5rem)"
+    heading: "clamp(1.5rem, 2.5vw, 2rem)"
+    body: "1rem"
+    caption: "0.875rem"
+
+motion:
+  fast: "120ms"
+  standard: "200ms"
+  emphasized: "320ms"
+  reduced_motion: "0ms"
