@@ -1,0 +1,30 @@
+id: futuristic
+direction: "Precise, technical, and information-aware."
+
+layout:
+  - Structured grids
+  - Clear panels and data hierarchy
+
+typography:
+  - Readable sans serif for interface text
+  - Optional monospace for code and technical identifiers
+
+palette:
+  - Light or dark neutral foundation
+  - Controlled luminous accents
+
+components:
+  - Legible charts
+  - Clear status indicators
+  - Optional subtle depth effects
+
+avoid:
+  - Mandatory dark mode
+  - Excessive neon and glow
+  - Decorative fake data
+  - Animation that distracts from analysis
+
+supporting_use:
+  - Accent colors
+  - Surface treatment
+  - Nonessential motion
