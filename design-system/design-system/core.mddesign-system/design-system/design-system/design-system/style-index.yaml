@@ -1,0 +1,67 @@
+version: 1
+
+core_values:
+  - calm
+  - premium
+  - technical
+  - expressive
+  - playful
+  - disruptive
+  - friendly
+
+styles:
+  kawaii:
+    values: [playful, friendly, expressive]
+    industry_fit: [entertainment, education, lifestyle, community]
+    audience_fit: [children, families, casual-consumers]
+    emotion_fit: [playful, friendly]
+    density_fit: [minimal, balanced]
+    formality_range: [0, 4]
+
+  isometric:
+    values: [technical, friendly]
+    industry_fit: [education, infrastructure, logistics, software]
+    audience_fit: [learners, technical-buyers, mixed-expertise-teams]
+    emotion_fit: [technical, friendly, focus]
+    density_fit: [explain-a-system, balanced]
+    formality_range: [3, 8]
+
+  luxury:
+    values: [premium, calm]
+    industry_fit: [hospitality, fashion, beauty, art, premium-services]
+    audience_fit: [premium-buyers, patrons, executive-clients]
+    emotion_fit: [premium, calm]
+    density_fit: [minimal, balanced]
+    formality_range: [8, 10]
+
+  streetwear:
+    values: [expressive, disruptive, playful]
+    industry_fit: [fashion, music, sport, culture, entertainment]
+    audience_fit: [culture-communities, fans, expressive-consumers]
+    emotion_fit: [raw, rebel, expressive, playful]
+    density_fit: [minimal, balanced]
+    formality_range: [0, 4]
+
+  deconstructivism:
+    values: [expressive, disruptive]
+    industry_fit: [art, editorial, fashion, creative-events]
+    audience_fit: [design-literate-audiences, art-communities]
+    emotion_fit: [raw, rebel, expressive]
+    density_fit: [minimal, balanced]
+    formality_range: [0, 6]
+
+  japandi:
+    values: [calm, premium, friendly]
+    industry_fit: [wellness, interiors, hospitality, lifestyle, productivity]
+    audience_fit: [focus-seekers, everyday-users, premium-buyers]
+    emotion_fit: [calm, focus, friendly]
+    density_fit: [minimal, balanced]
+    formality_range: [3, 8]
+
+  futuristic:
+    values: [technical, premium]
+    industry_fit: [software, ai, science, analytics, infrastructure]
+    audience_fit: [technical-users, analysts, professional-users]
+    emotion_fit: [technical, focus, premium]
+    density_fit: [data-heavy, explain-a-system, balanced]
+    formality_range: [4, 9]
