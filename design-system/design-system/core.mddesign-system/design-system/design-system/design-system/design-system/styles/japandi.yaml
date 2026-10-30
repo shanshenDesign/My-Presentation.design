@@ -1,0 +1,27 @@
+id: japandi
+direction: "Quiet, functional, warm, and uncluttered."
+
+layout:
+  - Balanced spacing
+  - Clear grouping and restrained decoration
+
+typography:
+  - Readable understated type
+  - Moderate weight variation
+
+palette:
+  - Warm neutrals
+  - Muted natural accents with sufficient contrast
+
+components:
+  - Simple shapes
+  - Subtle borders and limited elevation
+
+avoid:
+  - Beige-on-beige unreadable text
+  - Hidden actions in the name of minimalism
+  - Excessive empty space on task-heavy screens
+
+supporting_use:
+  - Surface treatment
+  - Accent colors
