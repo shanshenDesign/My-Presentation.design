@@ -1,0 +1,27 @@
+id: luxury
+direction: "Restrained, deliberate, and premium."
+
+layout:
+  - Spacious composition
+  - Strong hierarchy and selective imagery
+
+typography:
+  - Refined display face where appropriate
+  - Highly readable body text
+
+palette:
+  - Restrained neutrals
+  - Limited rich accents
+
+components:
+  - Precise alignment
+  - Subtle borders and restrained elevation
+
+avoid:
+  - Tiny text
+  - Low-contrast gold on light backgrounds
+  - Excessive whitespace that hides essential information
+
+supporting_use:
+  - Decorative typography
+  - Surface treatment
