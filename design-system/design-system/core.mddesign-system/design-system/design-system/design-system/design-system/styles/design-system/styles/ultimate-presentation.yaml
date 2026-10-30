@@ -1,0 +1,90 @@
+id: ultimate-presentation
+direction: >
+  A confident, editorial, cinematic presentation direction:
+  clear narrative, premium typography, purposeful motion, and
+  restrained futuristic visual effects.
+
+use_when:
+  - pitch decks
+  - product launches
+  - executive presentations
+  - design showcases
+  - conference talks
+  - portfolio presentations
+
+core_values:
+  - premium
+  - expressive
+  - technical
+  - calm
+
+layout:
+  - Use a 12-column editorial grid.
+  - Give each slide one dominant message.
+  - Use intentional negative space.
+  - Create a clear focal hierarchy.
+  - Use full-bleed imagery or gradients only when they support meaning.
+  - Avoid placing essential text over busy backgrounds.
+
+typography:
+  - Use one expressive display family and one highly readable UI family.
+  - Use oversized display headlines for section transitions.
+  - Keep body copy short and scannable.
+  - Use a clear hierarchy: display, heading, subheading, body, caption.
+  - Avoid all-caps paragraphs and decorative type for essential content.
+
+color:
+  - Establish a strong light or dark foundation.
+  - Use one primary accent and one restrained secondary accent.
+  - Use gradients and glow as atmosphere, not as the main message.
+  - Ensure all meaningful text and UI pairs meet accessibility contrast rules.
+
+visual_effects:
+  allowed:
+    - Subtle grid or blueprint texture
+    - Soft radial gradients
+    - Controlled glow around a focal element
+    - Layered translucent surfaces
+    - Fine noise or grain
+    - Animated data reveals
+    - Scroll-linked section transitions
+  limits:
+    - No mandatory animation for understanding content.
+    - No flashing or high-frequency motion.
+    - No glow that reduces text contrast.
+    - No decorative effects that obscure navigation or data.
+
+motion:
+  principles:
+    - Motion should reveal hierarchy and continuity.
+    - Stagger related elements by 60–120ms.
+    - Use 180–420ms for most interface transitions.
+    - Use easing that feels intentional, not mechanical.
+  required:
+    - Respect prefers-reduced-motion.
+    - Provide a non-animated equivalent for essential information.
+
+data:
+  - Use real or clearly labeled sample data.
+  - Label axes, units, sources, and time ranges.
+  - Animate only the meaningful change, not every chart element.
+  - Do not invent metrics, customers, awards, testimonials, or results.
+
+narrative:
+  recommended_sequence:
+    - Cover
+    - Thesis or promise
+    - Context or problem
+    - Insight
+    - Solution or system
+    - Evidence
+    - Impact
+    - Call to action
+
+quality_bar:
+  - Every slide has one clear purpose.
+  - The eye reaches the most important element first.
+  - Typography, spacing, and alignment feel deliberate.
+  - The deck works without animation.
+  - The visual language remains consistent across slides.
+  - Accessibility requirements remain intact.
