@@ -1,0 +1,27 @@
+id: kawaii
+direction: "Warm, rounded, approachable, and playful."
+
+layout:
+  - Clear groups with generous separation
+  - Simple cards and obvious actions
+
+typography:
+  - Friendly, readable sans serif
+  - Rounded display accents used sparingly
+
+palette:
+  - Soft backgrounds with readable dark text
+  - Cheerful accents reserved for emphasis
+
+components:
+  - Rounded corners
+  - Friendly illustrations and optional mascots
+
+avoid:
+  - Infantilizing adult audiences
+  - Low-contrast pastel text
+  - Decorative characters competing with navigation
+
+supporting_use:
+  - Illustrations
+  - Accent colors
