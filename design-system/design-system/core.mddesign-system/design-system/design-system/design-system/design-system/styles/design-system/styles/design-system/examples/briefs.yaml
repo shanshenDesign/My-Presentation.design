@@ -1,0 +1,59 @@
+version: 1
+purpose: "Manual acceptance cases; not an executable test suite."
+
+cases:
+  - id: explicit-single-style
+    brief: >
+      Create a calm wellness landing page using only japandi.
+    expected:
+      primary: japandi
+      supporting: null
+      selection_method: explicit
+
+  - id: data-dashboard
+    brief: >
+      Design a technical analytics dashboard for professional analysts.
+      Use dense readable data and a formal but approachable tone.
+    expected:
+      primary_preference: futuristic
+      note: "Inspect dimension ratings if another style wins."
+
+  - id: system-explanation
+    brief: >
+      Explain a logistics network to learners using labeled diagrams.
+      Prioritize technical clarity and friendliness.
+    expected:
+      primary_preference: isometric
+
+  - id: accessibility-conflict
+    brief: >
+      Create a luxury checkout with tiny low-contrast gold labels.
+    expected:
+      primary_preference: luxury
+      reject:
+        - Tiny unreadable labels
+        - Insufficient contrast
+      report_conflict: true
+
+  - id: unknown-audience
+    brief: >
+      Create a playful community homepage.
+    expected:
+      audience_age_min: null
+      note: "Do not assume children because the tone is playful."
+
+  - id: cinematic-deck
+    brief: >
+      Create a premium futuristic product-launch presentation.
+      Prioritize a confident narrative, restrained visual effects,
+      readable data, and purposeful motion.
+    expected:
+      primary_preference: futuristic
+      load_extra_style: ultimate-presentation
+      note: "Use restrained effects; do not sacrifice readability."
+
+  - id: backend-only
+    brief: >
+      Fix the database connection retry logic.
+    expected:
+      run_design_routing: false
