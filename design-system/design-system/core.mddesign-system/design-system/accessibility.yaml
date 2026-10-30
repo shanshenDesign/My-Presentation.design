@@ -1,0 +1,52 @@
+version: 1
+priority: mandatory
+target: "WCAG 2.2 AA"
+certification_claim: false
+
+contrast:
+  normal_text_min: 4.5
+  large_text_min: 3.0
+  meaningful_ui_and_graphics_min: 3.0
+  evaluate_actual_foreground_background_pairs: true
+
+interaction:
+  keyboard_operable: true
+  visible_focus: true
+  prevent_keyboard_traps: true
+  no_hover_only_essential_controls: true
+  touch_target_project_min_css_px: 44
+  note: "44px is a project default, not a claim about every AA criterion."
+
+semantics:
+  use_native_elements_when_possible: true
+  logical_heading_order: true
+  accessible_names_for_controls: true
+  associate_labels_with_inputs: true
+  announce_relevant_dynamic_status: true
+
+content:
+  never_use_color_as_only_signal: true
+  useful_alt_text_for_informative_images: true
+  empty_alt_for_decorative_images: true
+  identify_errors_and_explain_recovery: true
+
+layout:
+  support_zoom_and_reflow: true
+  preserve_meaningful_reading_order: true
+  avoid_clipped_essential_text: true
+
+motion:
+  respect_prefers_reduced_motion: true
+  avoid_flashing_content: true
+  essential_information_available_without_animation: true
+
+verification:
+  perform_when_available:
+    - keyboard_navigation
+    - focus_visibility
+    - contrast_measurement
+    - zoom_and_small_screen_review
+    - automated_accessibility_scan
+    - assistive_technology_review
+  report_unperformed_checks: true
+  automated_scan_is_not_complete_verification: true
