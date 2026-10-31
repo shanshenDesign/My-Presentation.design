@@ -293,3 +293,31 @@ At the end of a visual design task:
 - List checks not completed.
 - Identify any brand, accessibility, or usability conflicts.
 - Do not overstate certainty or compliance.
+
+
+This is for website,apps if the user ask you to make a website just take a look at this.
+## Website excellence
+
+For websites, web apps, landing pages, dashboards, and product UI:
+
+- Start with the user’s primary task.
+- Make navigation predictable and easy to scan.
+- Use semantic HTML and existing components where possible.
+- Build mobile-first responsive layouts.
+- Use semantic tokens for color, spacing, typography, and radius.
+- Show necessary component states:
+  default, hover, focus, active, disabled, loading, and error.
+- Use real form labels, helpful validation, and actionable errors.
+- Keep body text readable and avoid decorative text for essential
+  information.
+- Preserve keyboard navigation, visible focus, and logical tab order.
+- Avoid hiding essential actions behind hover-only interactions.
+- Use motion only for feedback, continuity, or state changes.
+- Respect prefers-reduced-motion.
+- Do not let visual effects interfere with reading, navigation,
+  forms, or data comprehension.
+
+A high-level website is not merely visually impressive.
+
+It must be clear, usable, responsive, accessible, brand-consistent,
+and easy to maintain.
